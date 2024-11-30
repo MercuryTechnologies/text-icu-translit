@@ -4,7 +4,7 @@ module Data.Text.ICU.Translit.IO
      transliterate) where
 
 import Foreign
-import Data.Text
+import Data.Text hiding (show)
 import Data.Text.Foreign
 import Data.Text.ICU.Translit.ICUHelper
 
